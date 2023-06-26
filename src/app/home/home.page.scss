@@ -1,27 +1,29 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.imglogo{
+  width: 60%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.textos-registro{
+  font-size: 130%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.margenes-inputs{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-#container a {
-  text-decoration: none;
+.boton{
+  display:flex;
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
 }
+
