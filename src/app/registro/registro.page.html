@@ -15,18 +15,18 @@
       <ion-input placeholder="correo@correo.cl"></ion-input>
     </ion-item>
 
+    <p class="ion-text-center textos-registro">NICKNAME</p>
+    <ion-item class="margenes-inputs">
+      <ion-input placeholder="Sir Rana"></ion-input>
+    </ion-item>
+
     <p class="ion-text-center textos-registro">PASSWORD</p>
     <ion-item class="margenes-inputs">
       <ion-input placeholder="**************" type="password"></ion-input>
     </ion-item>
 
-    <p class="ion-text-center textos-registro">REPITA PASSWORD</p>
-    <ion-item class="margenes-inputs">
-      <ion-input placeholder="Favor coincidir password" type="password"></ion-input>
-    </ion-item>
-
     <br>
     <div class="boton">
-    <ion-button class="" size="large" fill="outline">REGISTRAR</ion-button>
+    <ion-button (click)="perfilFrog()" size="large" fill="outline">REGISTRAR</ion-button>
     </div>
   </ion-content>
