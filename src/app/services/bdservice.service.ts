@@ -15,8 +15,8 @@ export class BdserviceService {
                           "id_usuario INTEGER PRIMARY KEY autoincrement,"+
                           "nombre VARCHAR(40) NOT NULL,"+
                           "edad VARCHAR(40) NOT NULL,"+
-                          "correo VARCHAR(40) NOT NULL"+
-                          "nickname VARCHAR(40) NOT NULL"+
+                          "correo VARCHAR(40) NOT NULL,"+
+                          "nickname VARCHAR(40) NOT NULL,"+
                           "password VARCHAR(40) NOT NULL);";
   //aqui se puede crear mas variables, por si necesito mas tablas.
 

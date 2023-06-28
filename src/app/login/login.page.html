@@ -6,17 +6,17 @@
   <br>
   <p class="ion-text-center textos-login">CORREO</p>
   <ion-item class="margenes-inputs">
-    <ion-input placeholder="correo@correo.cl"></ion-input>
+    <ion-input [(ngModel)]="correo" placeholder="correo@correo.cl"></ion-input>
   </ion-item>
   <br>
   <p class="ion-text-center textos-login">PASSWORD</p>
   <ion-item class="margenes-inputs">
-    <ion-input placeholder="**************" type="password"></ion-input>
+    <ion-input [(ngModel)]="password" placeholder="**************" type="password"></ion-input>
   </ion-item>
   <br>
   <br>
   <div class="boton">
-  <ion-button (click)="loginFrog()" size="large" fill="outline">Ingresar</ion-button>
+  <ion-button (click)="logeado()" (click)="loginFrog()" size="large" fill="outline">Ingresar</ion-button>
   </div>
   <br>
   <br>
